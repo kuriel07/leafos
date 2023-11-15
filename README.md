@@ -12,16 +12,20 @@ a lightweight multitasking-graphical operating system designed for small embedde
 8. integrated file system based on FAT32 file system (sd card access)
 9. Wi-FI (ESP32 Module), ISO7816, Global Platform, ISO14443, GSM (SIM800 compatible), USB Device, SD CArd, I2C, 8080 LCD (FSMC)
 
-Multitasking+GUI preview
+### Multitasking+GUI preview
+
 [![Watch the video](https://img.youtube.com/vi/jQXdla5kHUI/hqdefault.jpg)](https://www.youtube.com/embed/jQXdla5kHUI)
 
-FAT32 File System access on SD Card
+### FAT32 File System access on SD Card
+
 [![Watch the video](https://img.youtube.com/vi/PyfjOimzPGQ/hqdefault.jpg)](https://www.youtube.com/embed/PyfjOimzPGQ)
 
-Signal Analyzer with Fast Fourier Transform 
+### Signal Analyzer with Fast Fourier Transform 
+
 [![Watch the video](https://img.youtube.com/vi/O3enWRYGT20/hqdefault.jpg)](https://www.youtube.com/embed/O3enWRYGT20)
 
-USB Microphone (implementing isochronous packet transfer for audio streaming)
+### USB Microphone (implementing isochronous packet transfer for audio streaming)
+
 [![Watch the video](https://img.youtube.com/vi/GIT_wHkBR8U/hqdefault.jpg)](https://www.youtube.com/embed/GIT_wHkBR8U)
 
 due to the nature of library being used licensed under GPLv2, as copyleft product then this project also licensed under GPLv2
