@@ -37,6 +37,16 @@ this application shows LeafOS acted as USB Device, capable of transmitting audio
 
 [![Watch the video](https://img.youtube.com/vi/GIT_wHkBR8U/hqdefault.jpg)](https://www.youtube.com/embed/GIT_wHkBR8U)
 
-due to the nature of library being used licensed under GPLv2, as copyleft product then this project also licensed under GPLv2
+due to the nature of the library being used, licensed under GPLv2, as copyleft product then this project also licensed under GPLv2
+
+## Build the project
+
+1. open MDK ARM IDE Project (.uvproj) using Keil IDE
+2. configure the device and CMSIS support (include CMSIS-math library for FFT)
+3. check config.h, defs.h if you need to activate some features such as switching LCD display
+
+## Porting
+
+all files Users/Interfaces with prefix if_xxxx and APIS with the same prefix provides Hardware Abstraction Layer for operating system, in order to port APIs to different hardware, developer must provide APIs with the same input paramters and return value, check ili932x.c, if_gui.c and if_gui_fmc.c to see how it works  
 
 
